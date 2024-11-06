@@ -1,0 +1,30 @@
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emojis {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.emojis-description {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 3px;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .emojis {
+    height: 100px;
+    width: 100px;
+  }
+  .emojis-description {
+    font-size: 10px;
+  }
+}

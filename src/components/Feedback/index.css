@@ -1,0 +1,66 @@
+.background {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb, #ffebeb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 10px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.feedback-qn {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 17px;
+  text-align: center;
+}
+
+.emojis-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  list-style-type: none;
+  margin-left: none;
+  padding-left: none;
+}
+
+.thankyou-description {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 60%;
+    padding: 40px;
+  }
+  .feedback-qn {
+    font-size: 30px;
+  }
+  .emojis-container {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .emojis {
+    height: 100px;
+    width: 100px;
+  }
+  .emojis-description {
+    font-size: 10px;
+  }
+  .thankyou-description {
+    font-size: 17px;
+  }
+}
